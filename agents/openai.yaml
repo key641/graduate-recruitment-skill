@@ -1,0 +1,14 @@
+interface:
+  display_name: 秋招求职管家
+  short_description: 帮助你一站式发现校招岗位、同步招聘进度并按JD定制简历
+  default_prompt: Use $manage-graduate-recruitment to configure and manage my graduate
+    recruitment workflow.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
